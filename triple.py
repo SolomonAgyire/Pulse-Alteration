@@ -60,7 +60,7 @@ p21 = a21 * np.exp(-k31 * (t - t21)) / (1 + np.exp(-k41 * (t - t21)))  # First p
 p22 = a22 * np.exp(-k32 * (t - t22)) / (1 + np.exp(-k42 * (t - t22)))  # Second pulse
 p23 = a23 * np.exp(-k33 * (t - t23)) / (1 + np.exp(-k43 * (t - t23)))  # Third pulse
 
-# Combine the pulses to form the final waveform
+# Computing the triple wave from the formula
 Final_waveform = p21 + p22 + p23
 
 # Plot the result
