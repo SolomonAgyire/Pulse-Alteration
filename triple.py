@@ -17,7 +17,7 @@ with open('x1.txt', 'r') as file:
 
 params = np.array(params)
 
-# Extract relevant parameters for the pulses
+# Extracting relevant parameters for the pulses
 t1 = params[:, 0:1]  # Starting position of the first pulse
 a21 = params[:, 1:2] # Amplitude of the first pulse
 k31 = params[:, 2:3] # Rise rate of the first pulse
